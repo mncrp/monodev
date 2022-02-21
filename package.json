@@ -1,0 +1,19 @@
+{
+  "name": "monodev",
+  "version": "1.0.0",
+  "description": "integrated development environment for the front-end of the web",
+  "main": "main.js",
+  "scripts": {
+    "test": "npx electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinking/monodev.git"
+  },
+  "author": "monochrome Project. <sorakime-net-activities@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinking/monodev/issues"
+  },
+  "homepage": "https://sorakime.github.io/mncr/project/mondev/"
+}
