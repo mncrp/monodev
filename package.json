@@ -2,7 +2,7 @@
   "name": "monodev",
   "version": "1.0.0",
   "description": "integrated development environment for the front-end of the web",
-  "main": "main.js",
+  "main": "src/main/main.js",
   "scripts": {
     "test": "npx electron ."
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/thinking/monodev/issues"
   },
-  "homepage": "https://sorakime.github.io/mncr/project/mondev/"
+  "homepage": "https://sorakime.github.io/mncr/project/mondev/",
+  "devDependencies": {
+    "electron": "^17.0.1"
+  }
 }

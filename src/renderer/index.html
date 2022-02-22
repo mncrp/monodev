@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Monodev</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.0/ace.js"></script>
+    <style media="screen">
+      * {
+        margin: 0;
+      }
+      #editor {
+        height: 100vw;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="editor"></div>
+    <script>
+      let editor = ace.edit('editor');
+      editor.$blockScrolling = Infinity;
+      editor.setOptions({
+        enableBasicAutocompletion: true,
+        enableSnippets: true,
+        enableLiveAutocompletion: true
+      });
+      editor.setTheme('ace/theme/merbivore');
+      editor.getSession().setMode('ace/mode/javascript');
+      editor.getSession().setUseWrapMode(true);
+      editor.getSession().setTabSize(2);
+    </script>
+  </body>
+</html>
