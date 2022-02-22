@@ -4,12 +4,22 @@
     <meta charset="utf-8">
     <title>Monodev</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.0/ace.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.0/ext-language_tools.js"></script>
     <style media="screen">
       * {
         margin: 0;
       }
       #editor {
-        height: 100vw;
+        height: 100vh;
+      }
+      .ace_tooltip {
+        font-size: 13px;
+      }
+      .ace_editor.ace_autocomplete .ace_scroller,
+      .ace_content,
+      .ace_content *{
+        backgroundColor: #222;
+        color: #fff;
       }
     </style>
   </head>
